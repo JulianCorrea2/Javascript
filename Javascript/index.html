@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="js/funciones.js"></script>
+	<title>Funciones nativas</title>
+</head>
+<body>
+	<button onclick="myDate()" class="btn btn-outline-warning">Date</button>
+	<p id="date"></p><br><br>
+	<button onclick="myDay()" class="btn btn-outline-warning">Day</button>
+	<p id="day"></p><br><br>
+	<button onclick="myYear()" class="btn btn-outline-warning">Year</button>
+	<p id="year"></p><br><br>
+	<button onclick="myHour()" class="btn btn-outline-warning">Hour</button>
+	<p id="hour"></p><br><br>
+	<button onclick="myMilliSeconds()" class="btn btn-outline-warning">Milliseconds</button>
+	<p id="millisenconds"></p><br><br>
+	<button onclick="myMinute()" class="btn btn-outline-warning">Minute</button>
+	<p id="minute"></p><br><br>
+	<button onclick="myMonth()" class="btn btn-outline-warning">Month</button>
+	<p id="month"></p><br><br>
+	<button onclick="mySeconds()" class="btn btn-outline-warning">Seconds</button>
+	<p id="Seconds"></p><br><br>
+	<button onclick="myTime()" class="btn btn-outline-warning">Time</button>
+	<p id="time"></p><br><br>
+	<button onclick="myTimeZone()" class="btn btn-outline-warning">Time Zone</button>
+	<p id="timezone"></p><br><br>
+	<button onclick="myUTCDate()" class="btn btn-outline-warning">UTCDate</button>
+	<p id="utcdate"></p><br><br>
+	<button onclick="myUTDDay()" class="btn btn-outline-warning">UTCDay</button>
+	<p id="utcday"></p><br><br>
+	<button onclick="myUTCYear()" class="btn btn-outline-warning">UTCYear</button>
+	<p id="utcyear"></p><br><br>
+	<button onclick="myUTCHours()" class="btn btn-outline-warning">UTCHours</button>
+	<p id="utchours"></p><br><br>
+	<button onclick="myUTCMilliseconds()" class="btn btn-outline-warning">UTCMillisenconds</button>
+	<p id="utcmilli"></p><br><br>
+	<button onclick="myUTCMinutes" class="btn btn-outline-warning">UTCMinutes</button>
+	<p id="utcminutes"></p><br><br>
+	<button onclick="myUTCMonth()" class="btn btn-outline-warning">UTCMonth</button>
+	<p id="utcmonth"></p><br><br>
+	<button onclick="myUTCSeconds()" class="btn btn-outline-warning">UTCSeconds</button>
+	<p id="utcseconds"></p><br><br>
+	<button onclick="myNow()" class="btn btn-outline-warning">Now</button>
+	<p id="now"></p><br><br>
+	<button onclick="myParse()" class="btn btn-outline-warning">Parse</button>
+	<p id="parse"></p><br><br>
+	<button onclick="myPrototype()" class="btn btn-outline-warning">Prototype</button>
+	<p id="prototype"></p><br><br>
+	<button onclick="mySetDate()" class="btn btn-outline-warning">Set Date</button>
+	<p id="setdate"></p><br><br>
+	<button onclick="mySetYear()" class="btn btn-outline-warning">Set Year</button>
+	<p id="setyear"></p><br><br>
+	<button onclick="mySetHours()" class="btn btn-outline-warning">Set Hours</button>
+	<p id="sethours"></p><br><br>
+	<button onclick="mySetMillisencods()" class="btn btn-outline-warning">Set Milliseconds</button>
+	<p id="setmilli"></p><br><br>
+	<button onclick="mySetMinutes()" class="btn btn-outline-warning">Set Minutes</button>
+	<p id="setminutes"></p><br><br>
+	<button onclick="mySetMonth()" class="btn btn-outline-warning">Set Month</button>
+	<p id="setmonth"></p><br><br>
+	<button onclick="mySetSeconds()" class="btn btn-outline-warning">Set Seconds</button>
+	<p id="setseconds"></p><br><br>
+	<button onclick="mySetTime()" class="btn btn-outline-warning">Set Time</button>
+	<p id="settime"></p><br><br>
+	<button onclick="mySetUTCDate()" class="btn btn-outline-warning">Set UTCDate</button>
+	<p id="setutcdate"></p><br><br>
+	<button onclick="mySetUTCYear()" class="btn btn-outline-warning">Set UTCYear</button>
+	<p id="setutcyear"></p><br><br>
+	<button onclick="mySetUTCHours()" class="btn btn-outline-warning">Set UTCHours</button>
+	<p id="setutchours"></p><br><br>
+	<button onclick="mySetUTCMillisenconds()" class="btn btn-outline-warning">Set UTCMilliseconds</button>
+	<p id="setutcmilli"></p><br><br>
+	<button onclick="mySetUTCMinutes" class="btn btn-outline-warning">Set UTCMinutes</button>
+	<p id="setutcminutes"></p><br><br>
+	<button onclick="mySetUTCMonth" class="btn btn-outline-warning">Set UTCMonth</button>
+	<p id="setutcmonth"></p><br><br>
+	<button onclick="mySetUTCSeconds()" class="btn btn-outline-warning">Set UTCSeconds</button>
+	<p id="setutcseconds"></p><br><br>
+	<button onclick="myDateString()" class="btn btn-outline-warning">Date String</button>
+	<p id="datestring"></p><br><br>
+	<button onclick="myISOString()" class="btn btn-outline-warning">ISO String</button>
+	<p id="isostring"></p><br><br>
+	<button onclick="myToJSON()" class="btn btn-outline-warning">To JSON</button>
+	<p id="tojson"></p><br><br>
+	<button onclick="myToLocaleDate()" class="btn btn-outline-warning">To Locale Date</button>
+	<p id="demo"></p><br><br>
+	<button onclick="myToLocaleTime()" class="btn btn-outline-warning">Ope</button>
+	<p id="demo"></p><br><br>
+	<button onclick="myTolocaleString()" class="btn btn-outline-warning">To Locale String</button>
+	<p id="tolocalestring"></p><br><br>
+	<button onclick="myToString()" class="btn btn-outline-warning">To String</button>
+	<p id="tostring"></p><br><br>
+	
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
